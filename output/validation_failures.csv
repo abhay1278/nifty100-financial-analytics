@@ -1,0 +1,7 @@
+rule,severity,count,message
+DQ-01,PASS,0,No duplicate company IDs
+DQ-02,PASS,92,Company count matches expected value
+DQ-03,PASS,0,Missing company IDs
+DQ-04,CRITICAL,99,Foreign key integrity check
+DQ-05,CRITICAL,26,Duplicate company-year records
+DQ-06,CRITICAL,1,Non-positive sales values
